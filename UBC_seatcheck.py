@@ -17,7 +17,7 @@ import sys
 import numpy as np
 
 #PARAMETERS (these can be changed)
-delay = 21 # Checks the site every x seconds
+delay = 60 # Checks the site every x seconds
 sigma = 20 # The time in between checks varies by this amount (time between checks is randomized slightly). Make sure this is less than delay.
 numcycles = 90000 # How many cycles you want this to run (the program will run for this number * delay seconds). Valid to make this as long as the period from now to the course add/drop deadline.
 global fromaddr, toaddr, password, subject, course, section  # Declares global variables so these can be accessed inside functions. 
