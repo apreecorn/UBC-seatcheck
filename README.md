@@ -14,6 +14,6 @@ A python script that will check the UBC course calendar for available seats in a
 11. After finishing setting the parameters in the program, you're almost done! Now, to run the program, start a new instance of terminal/open a new window in terminal.
 12. Into terminal, type in "python " (with the space). Then, drag in the "UBC_seatcheck.py" program into terminal (or you can manually type in the full path of the program). Then, leaving another space, type in the desired course subject, course code, and section number (with spaces in between). The final input into terminal should look something like like:
 "python /Users/USERNAME/Downloads/UBC_seatcheck.py MATH 320 101". Finally, hit return to start the program.
-13. The program will continue to check the course at the specified time interval automatically as long as your computer is turned on. When it sees that the course has a general seat open, the program will stop running, and send an email from and to the specified address. 
+13. The program will continue to check the course at the specified time interval automatically as long as your computer is turned on. When it sees that the course has a general seat open, the program will stop running, and send an email from and to the specified address. To terminate the program early, either close the terminal window or type "Control C".
 
 Happy coursehunting!
